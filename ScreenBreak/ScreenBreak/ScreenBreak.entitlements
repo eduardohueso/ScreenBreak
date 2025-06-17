@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.ChristianPichardo.ScreenBreak</string>
+		<string>group.snapshop.PACTControls</string>
 	</array>
 </dict>
 </plist>
