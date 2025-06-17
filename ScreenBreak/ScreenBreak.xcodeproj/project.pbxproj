@@ -80,7 +80,7 @@
 		48AE9A0C29DC80D70092766C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AE99FE29DC80D70092766C /* Inter-SemiBold.ttf */; };
 		48AE9A0D29DC80D70092766C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AE99FE29DC80D70092766C /* Inter-SemiBold.ttf */; };
 		48AE9A1029DDC9D50092766C /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 48AE9A0F29DDC9D50092766C /* SwiftUICharts */; };
-		48AE9A1429DDD7D10092766C /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 48AE9A1329DDD7D10092766C /* SwiftUICharts */; };
+		48AE9A1429DDD7D10092766C /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 48AE9A0F29DDC9D50092766C /* SwiftUICharts */; };
 		48AE9A1629DF316B0092766C /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE9A1529DF316B0092766C /* LoadingAnimation.swift */; };
 		48AE9A1729DF316B0092766C /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE9A1529DF316B0092766C /* LoadingAnimation.swift */; };
 		48AE9A1829DF316B0092766C /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE9A1529DF316B0092766C /* LoadingAnimation.swift */; };
@@ -110,8 +110,8 @@
 		48AE9AA829EB665B0092766C /* FamilyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE9AA729EB665B0092766C /* FamilyPickerView.swift */; };
 		48AE9AAA29F5FEE80092766C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE99F729DC7E6F0092766C /* CustomFont.swift */; };
 		48AE9AAD29F81CAF0092766C /* ApplicationsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48AE9AAB29F81CAF0092766C /* ApplicationsContainer.xcdatamodeld */; };
+		649B72642E0132F3000B37B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 649B72632E0132F3000B37B6 /* FirebaseAuth */; };
 		DD69DAAB29D20C850024831D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD69DAAA29D20C850024831D /* GoogleService-Info.plist */; };
-		DD69DAAE29D20D290024831D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD69DAAD29D20D290024831D /* FirebaseAuth */; };
 		DD69DAC029D212560024831D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD69DABD29D212560024831D /* LoginView.swift */; };
 		DD69DAC129D212560024831D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD69DABE29D212560024831D /* SignInView.swift */; };
 		DD69DAC229D212560024831D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD69DABF29D212560024831D /* RegisterView.swift */; };
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AE9A1029DDC9D50092766C /* SwiftUICharts in Frameworks */,
-				DD69DAAE29D20D290024831D /* FirebaseAuth in Frameworks */,
+				649B72642E0132F3000B37B6 /* FirebaseAuth in Frameworks */,
 				4846CFF329D72FED005D018E /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,9 +554,9 @@
 			);
 			name = ScreenBreak;
 			packageProductDependencies = (
-				DD69DAAD29D20D290024831D /* FirebaseAuth */,
 				4846CFF229D72FED005D018E /* RiveRuntime */,
 				48AE9A0F29DDC9D50092766C /* SwiftUICharts */,
+				649B72632E0132F3000B37B6 /* FirebaseAuth */,
 			);
 			productName = ScreenBreak;
 			productReference = 481388ED29ABE0F2001B8A55 /* ScreenBreak.app */;
@@ -613,7 +613,7 @@
 			);
 			name = ReportExtension;
 			packageProductDependencies = (
-				48AE9A1329DDD7D10092766C /* SwiftUICharts */,
+				48AE9A0F29DDC9D50092766C /* SwiftUICharts */,
 			);
 			productName = ReportExtension;
 			productReference = 4846CFBA29D1039E005D018E /* ReportExtension.appex */;
@@ -957,7 +957,7 @@
 		};
 		48AE9A1229DDD2BF0092766C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 48AE9A1129DDD2BF0092766C /* SwiftUICharts */;
+			productRef = 48AE9A0F29DDC9D50092766C /* SwiftUICharts */;
 		};
 		48AE9A2829E22DEF0092766C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1582,17 +1582,7 @@
 			package = 48AE9A0E29DDC9D50092766C /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
-		48AE9A1129DDD2BF0092766C /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48AE9A0E29DDC9D50092766C /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
-		};
-		48AE9A1329DDD7D10092766C /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48AE9A0E29DDC9D50092766C /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
-		};
-		DD69DAAD29D20D290024831D /* FirebaseAuth */ = {
+		649B72632E0132F3000B37B6 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DD69DAAC29D20D290024831D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
